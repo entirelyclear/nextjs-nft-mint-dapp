@@ -9,7 +9,7 @@ import Container from './Container';
 import NextLink from './NextLink';
 import { useContractContext } from '../context/Contract';
 import { injected } from '../utils/wallet/connectors';
-import Logo from '../public/assets/cropped-main.png';
+import Logo from '../public/assets/bee-base.png';
 
 export default function Header() {
   const { activate, setError, chainId, account, active } = useWeb3React();
