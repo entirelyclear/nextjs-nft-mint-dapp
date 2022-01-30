@@ -9,7 +9,6 @@ import Faq from '../components/Faq';
 import Roadmap from '../components/Roadmap';
 import Team from '../components/Team';
 import topImage from '../public/assets/bee-back2.png';
-import BeeImage from '../public/assets/helpers4.png';
 
 const Home: NextPage = () => {
   return (
@@ -23,7 +22,7 @@ const Home: NextPage = () => {
       <div className="bg-gray-800 py-8">
         <Prose>
           <h1 className="text-5xl font-bold mb-2">
-            <Image src={BeeImage} alt={process.env.NEXT_PUBLIC_NFT_NAME} />
+          Honey Bee Helpers - Coming Soon
           </h1>
           <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
